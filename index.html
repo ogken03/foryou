@@ -42,14 +42,6 @@
 
 
 function yesClicked() {
-    let audio = document.querySelector("audio");
-
-    if (audio.paused) {
-        audio.muted = false;  // Unmute
-        audio.play().then(() => {
-            console.log("Audio playing!");
-        }).catch(error => console.log("Error playing audio:", error));
-    }
 
     document.body.innerHTML = `
         <h1>Yay! 🎉</h1>
@@ -57,10 +49,8 @@ function yesClicked() {
             <img src="images/good.jpg" class="gif" alt="Happy Gif">
         </div>
         <p class="message">You made the right choice! ❤️</p>
+        <p class="message">I love you Daisy, my only patootie in the entire world. Happy Valentines Day!</p>
     `;
 }
-
-    var audio = new Audio('https://github.com/ogken03/foryou/blob/main/images/song.mp3?raw=true');
-    audio.play();
 </script>
 </html>
