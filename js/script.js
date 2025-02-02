@@ -35,7 +35,5 @@ function yesClicked() {
     `;
 }
 
-<script>
-    var audio = new Audio('https://github.com/ogken03/foryou/blob/main/images/song.mp3?raw=true');
-    audio.play();
-</script>
+var audio = new Audio('https://github.com/ogken03/foryou/blob/main/images/song.mp3?raw=true');
+audio.play();
