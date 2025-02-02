@@ -36,6 +36,6 @@ function yesClicked() {
 }
 
 <script>
-    var audio = new Audio('https://github.com/user/project/blob/main/audio/sound.mp3?raw=true');
+    var audio = new Audio('https://github.com/ogken03/foryou/blob/main/images/song.mp3?raw=true');
     audio.play();
 </script>
